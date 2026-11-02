@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Online Shop</title>
+  </head>
+  <body>
+     <nav class="navbar">
+      <div class="navbar-container">
+        <div>
+          <a href="index.html" class="navbar-logo"><img src="../../../img/Untitled-2.png" width="70" alt="Logo" /></a>
+        </div>
+        <div class="navbar-menu">
+          <div><a class="active nav-link title-khmer" href="../indexkhmer.html">ទំព័រដើម</a></div>
+          <div><a class="nav-link title-khmer" href="./pageskhmer/shirts.html">អាវយឺត</a></div>
+          <div><a class="nav-link title-khmer" href="./pageskhmer/shorts.html">ខោជើងខ្លី</a></div>
+          <div><a class="nav-link title-khmer" href="./pageskhmer/shoes.html">ស្បែកជើង</a></div>
+          <div><a class="nav-link title-khmer" href="./pageskhmer/hats.html">មួក</a></div>
+          <div><a class="nav-link title-khmer" href="./pageskhmer/pants.html">ខោជើងវែង</a></div>
+          <div><a class="nav-link title-khmer" href="./pageskhmer/contact.html">ទំនាក់ទំនង</a></div> 
+        </div>
+        <div class="language">
+          <div class="position-relative text-success">
+              <i class="ri-shopping-cart-2-line fs-3"></i>
+              <span
+                id="cart-count"
+                class="badge bg-danger position-absolute"
+                style="top:-5px; right:-8px;"
+              >0</span>
+            </div>
+          <div class="language-dropdown">
+            <button class="dropdown-btn">
+              <img src="./img/cambodiaflage.png" alt="USA" width="35">
+            </button>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a href="./index.html">
+                  <img src="./img/usaflage.png" alt="Cambodia" width="35">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-toggle">
+          <div style="display: flex; justify-content: center; align-items: center;">
+            <button class="button-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+  </nav>
+  <div class="mt-4"></div>
+  <div class="d-flex justify-content-center align-items-center">
+    <img class="img-fluid mt-5 computer-banner" src="./img/homekhmerbanner.png" alt="">
+  </div>
+  <a name="top"></a>
+    <div class="d-flex justify-content-center align-items-center mt-5">
+      <img class="img-fluid phone-banner" src="./img/phonekhmerbanner.png" alt="">
+    </div>
+    
+    <div>
+      <div class="content-title">
+        <h1 class="title title-khmer" style="font-size: 60px;">សូមស្វាគមន៍មកកាន់ <span>Online Shop</span></h1>
+        <h3 class="khmer-nabar">ជម្រើសហាងដ៏ល្អបំផុតសម្រាប់លោកអ្នក</h3>
+
+        <div class="btn-group">
+          <button class="button view-product"><span class="khmer-nabar">មើលផលិតផល</span></button>
+          <a href="./pageskhmer/contact.html" class="button contact"><span class="khmer-nabar">ទំនាក់ទំនង</a>
+        </div>
+      </div>
+      <div class="image-row">
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/newcondition2.webp" alt="New Condition 1">
+          </div>
+        </div>
+
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/newcondition.webp" alt="New Condition 2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="display-product">
+      <div>
+        <div class="text-center">
+          <h1 class=" text-success mt-4 title-khmer">អាវយឺតល្អបំផុតសម្រាប់ឆ្នាំ២០២៦ <span></span></h1>
+          <h5 class="text-secondary khmer-nabar">លក្ខខណ្ឌថ្មីៗសម្រាប់លោកអ្នក</h5>
+        </div>
+        <div class="content-item">
+          <div class="product-item render-shirt">
+          </div>
+        </div>
+      </div>
+      <div class="image-row">
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/shortcondition1.webp" alt="New Condition 1">
+          </div>
+        </div>
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/shortcondition2.webp" alt="New Condition 2">
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text-center">
+          <h1 class="text-success mt-4 title-khmer">ខោជើងខ្លីល្បីបំផុតនៅក្នុងឆ្នាំ២០២៦</h1>
+          <h5 class="text-secondary khmer-nabar">ស្ទីលថ្មីៗសម្រាប់លោកអ្នក</h5>
+        </div>
+        <div class="content-item">
+          <div class="product-item render-short">
+          </div>
+        </div>
+      </div>
+      <div class="image-row">
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/pantscollection2.webp" alt="New Condition 1">
+          </div>
+        </div>
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/shoescondition2.webp" alt="New Condition 2">
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text-center">
+          <h1 class="text-success mt-4 title-khmer">ស្បែកជើងពិសេសៗនៅក្នុងឆ្នាំ២០២៦</h1>
+          <h5 class="text-secondary khmer-nabar">ការប្រមូលផ្តុំថ្មីៗសម្រាប់លោកអ្នក</h5>
+        </div>
+        <div class="content-item">
+          <div class="product-item render-shoes">
+          </div>
+        </div>
+      </div>
+      <div class="image-row">
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/pantscollection1.webp" alt="New Condition 1">
+          </div>
+        </div>
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/pantscollection2.webp" alt="New Condition 2">
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text-center">
+          <h1 class="text-success mt-4 title-khmer">មួកល្បីៗ​ និងទាន់សម័យសម្រាប់ឆ្នាំ២០២៦</h1>
+          <h5 class="text-secondary khmer-nabar">ជម្រើសថ្មីៗសម្រាប់លោកអ្នក</h5>
+        </div>
+        <div class="content-item">
+          <div class="product-item render-hats">
+          </div>
+        </div>
+      </div>
+      <div class="image-row">
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/pantscondion1.webp" alt="New Condition 1">
+          </div>
+        </div>
+        <div class="image-col">
+          <div class="image-card image-hover">
+            <img src="./img/pantscondition2.webp" alt="New Condition 2">
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="text-center">
+          <h1 class="text-success mt-4 title-khmer">ខោជើងវែងដ៏ពេញនិយមនៅក្នុងឆ្នាំ២០២៦</h1>
+          <h5 class="text-secondary khmer-nabar">ផលិតផលថ្មីសម្រាប់លោកអ្នកជារៀងរហូត</h5>
+        </div>
+        <div class="content-item">
+          <div class="product-item render-pants">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social-section">
+    <hr>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/1EuPnXbj3D/?mibextid=wwXIfr" aria-label="Facebook">
+          <i class="ri-facebook-circle-fill"></i>
+        </a>
+
+        <a href="https://twitter.com/" aria-label="Twitter">
+          <i class="ri-twitter-x-fill"></i>
+        </a>
+
+        <a href="https://www.instagram.com/" aria-label="Instagram">
+          <i class="ri-instagram-line"></i>
+        </a>
+
+        <a href="https://www.youtube.com/" aria-label="YouTube">
+          <i class="ri-youtube-fill"></i>
+        </a>
+
+        <a href="https://www.tiktok.com" aria-label="TikTok">
+          <i class="ri-tiktok-fill"></i>
+        </a>
+
+        <a href="https://t.me/ChhatChhin" aria-label="Telegram">
+          <i class="ri-telegram-fill"></i>
+        </a>
+      </div>
+    <hr>
+  </div>
+    <div class="text-center mt-3">
+      <h5 class="text-success khmer-nabar">ចុះឈ្មោះជាអតិថិជន</h5>
+      <P class="text-secondary khmer-nabar">តាមដានព័ត៌មានថ្មីៗទាំងអស់ពី<span>Online shop</span></P>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-success khmer-nabar">ចុះឈ្មោះ</button>
+    </div>
+    <footer class="footer-container">
+    <div class="footer">
+      <div class="footer-column">
+        <h5 class="khmer-nabar">សេវាកម្មអតិថិជន</h5>
+        <a class="khmer-nabar" href="../indexkhmer.html">ទាក់ទងមកយើងខ្ញុំ</a>
+        <a class="khmer-nabar" href="#">ការដឹកជញ្ជូន និងការបង្វិល</a>
+        <a class="khmer-nabar" href="#">សំណួរ/ជំនួយ</a>
+        <a class="khmer-nabar" href="#">លក្ខខណ្ឌ</a>
+        <a class="khmer-nabar" href="#">មគ្គុទ្ទេសក៍ទំហំ</a>
+      </div>
+
+      <div class="footer-column">
+        <h5 class="khmer-nabar">ហាងរបស់យើង</h5>
+        <a class="khmer-nabar" href="#">គោលការណ៍កំណត់តម្លៃរបស់យើង</a>
+        <a class="khmer-nabar" href="#">អាជីពការងារ</a>
+        <a class="khmer-nabar" href="#">អំពីយើង</a>
+        <a class="khmer-nabar" href="#">គោលការណ៍នៃការផ្គត់ផ្គង់</a>
+        <a class="khmer-nabar" href="#">សេចក្ដីថ្លែងការណ៍សម័យទំនើប</a>
+      </div>
+
+      <div class="footer-column">
+        <h5 class="khmer-nabar">គេហទំព័រ និងសារព័ត៌មានរបស់យើង</h5>
+        <a class="khmer-nabar" href="#">ឯកជនភាព</a>
+        <a class="khmer-nabar" href="#">កិត្តិយស</a>
+        <a class="khmer-nabar" href="#">សារព័ត៌មាន</a>
+      </div>
+
+      <div class="footer-column">
+        <h5 class="khmer-nabar">នៅទីនេះដើម្បីជួយ</h5>
+        <a class="khmer-nabar" href="#">ទីតាំងហាង</a>
+        <a class="khmer-nabar" href="#">ប័ណ្ណអំណោយ</a>
+        <a class="khmer-nabar" href="#">ពិនិត្យអំណោយរបស់អ្នក</a>
+        <a class="khmer-nabar" href="#">គណនីរបស់ខ្ញុំ</a>
+        <a class="khmer-nabar" href="#">បញ្ជីរបស់ដែលខ្ញុំចង់បាន</a>
+      </div>
+    </div>
+  </footer>
+  <div class="arrow-top">
+    <a href="#top"><i class="ri-arrow-up-circle-line"></i></a>
+  </div> 
+    <div class="text-center p-2 text-secondary khmer-nabar">
+        &copy; <span>2025</span> វិទ្យាស្ថាន​<span> Setec</span> | គ្រូបង្រៀន រី វិសាន | ក្រុម<span> SW15</span> | វេនសិក្សាយប់ | មុខវិជ្ជា អភិវឌ្ឍន៍គេហទំព័រ I | ឆ្នាំទី១ ឆមាសទី២ | <span> Project Link</span> | ធ្វើដោយ ឈីន ឆាត
+    </div>
+
+    <script src="./Bootstrap/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./displaykhmer/home.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
